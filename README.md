@@ -16,9 +16,11 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 ## Project features
 
 - Github pages
-- png images
-- fixed width content
+- multi-page (sign up, sign in, forgot password)
 - desktop only
+- absolute center
+- css blur
+- form
 
 ## Authors
 
