@@ -1,18 +1,30 @@
 .form {
-
+    display: inline-block;
+    width: 100%;
 }
 
 .form-row {
-
+    display: inline-block;
+    width: 100%;
 }
+
 
 .form-row > label {
-
+    display: inline-block;
+    width: 100%;
+   
 }
+.form-row + .form-row {
+margin-top: 40px;
+}
+
 
 .form-row > input {
-
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
 }
+
 
 .form-row > button {
 
