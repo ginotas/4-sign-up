@@ -20,6 +20,7 @@
 
 .form-row.flex-row {
     flex-direction: row;
+    gap: 25px;
 }
 
 
