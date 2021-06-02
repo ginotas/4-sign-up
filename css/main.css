@@ -8,13 +8,27 @@ body * {
 }
 
 body {
-background-color: azure;
+ background-color: #615ed2;
+  
 }
+.background {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+}
+
 main {
     display: inline-block;
     width: 800px;
-    margin-top: 60px;
-    margin-left: calc(50% - 400px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 .left-column {
@@ -27,6 +41,9 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
 
 }
 .bottom-links {
@@ -44,7 +61,7 @@ color: white;
 }
 .right-column {
     width: 60%;
-    float: left;
+    float: right;
     padding: 60px;
     background-color: white;
     position: relative;
